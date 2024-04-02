@@ -1,0 +1,27 @@
+.wrapper {
+  @apply bg-black h-[100vh] w-[100vw] flex justify-center items-center flex-col gap-2;
+}
+
+.header {
+  @apply text-white font-bold;
+}
+
+.accordion {
+  @apply w-[500px];
+}
+
+.item {
+  @apply bg-gray-600 m-3 px-4 py-2 rounded-md;
+}
+
+.title {
+  @apply text-white font-bold flex justify-between items-center cursor-pointer;
+}
+
+.btn {
+  @apply bg-neutral-800 text-white font-bold size-3 cursor-pointer;
+}
+
+.content {
+  @apply text-white font-thin h-auto m-4;
+}
